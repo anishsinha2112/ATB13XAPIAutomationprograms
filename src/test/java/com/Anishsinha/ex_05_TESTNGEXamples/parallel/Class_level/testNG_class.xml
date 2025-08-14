@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel-Method" parallel="classes" thread-count="2">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.Anishsinha.ex_05_TESTNGEXamples.parallel.Class_level.chromeTest"/>
+            <class name="com.Anishsinha.ex_05_TESTNGEXamples.parallel.Class_level.FirefoxTest"/>
+        </classes>
+    </test>
+</suite>
