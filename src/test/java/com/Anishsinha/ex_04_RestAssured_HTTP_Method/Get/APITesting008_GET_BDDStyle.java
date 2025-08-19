@@ -1,4 +1,4 @@
-package com.Anishsinha.Get;
+package com.Anishsinha.ex_04_RestAssured_HTTP_Method.Get;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;

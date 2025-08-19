@@ -1,4 +1,4 @@
-package com.Anishsinha.POST;
+package com.Anishsinha.ex_04_RestAssured_HTTP_Method.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
