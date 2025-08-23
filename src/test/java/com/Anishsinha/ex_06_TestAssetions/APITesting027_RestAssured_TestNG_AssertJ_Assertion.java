@@ -66,7 +66,7 @@ public class APITesting027_RestAssured_TestNG_AssertJ_Assertion {
 
 
 
-        // Extraction (TestNG or Assertj) Is IMP
+        //  Extraction (TestNG or Assertj) Is IMP
         bookingID = response.then().extract().path("bookingid");
         String firstname = response.then().extract().path("booking.firstname");
         String lastname = response.then().extract().path("booking.lastname");
